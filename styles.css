@@ -1,0 +1,461 @@
+.header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 20px; /* Add margin to create gap */
+}
+
+.logo img {
+    width: 70px; /* Adjust size as needed */
+    height: auto;
+}
+
+.search-bar {
+    flex: 1; /* Take remaining space */
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    width: 100%;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-bar button {
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #ff6f00;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #ff8c00;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc; /* Default border color */
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+.search-bar input[type="text"]:focus {
+    border-color: #3b8cff; /* Bright blue border color on focus */
+}
+
+.search-bar button {
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #ff6f00;
+}
+
+
+
+
+
+.hero {
+    height: 100vh; /* Adjust height as needed */
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #000000;
+    font-size: 50px;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.btn-product {
+    background-color: #ff8c00;
+}
+
+.btn-cart {
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+
+
+.shop-section {
+    background-color: #f0f0f0; /* Light grey background for shop section */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.section-title {
+    margin-bottom: 30px;
+    color: #333; /* Darker grey for section title */
+}
+
+.slider {
+    display: flex;
+    overflow-x: auto; /* Allow horizontal scrolling for the slider */
+    scroll-snap-type: x mandatory; /* Ensure each slide snaps into view */
+    margin: 0 -10px; /* Negative margin to offset container padding */
+}
+
+.slide {
+    flex: 0 0 auto;
+    margin: 0 10px; /* Space between slides */
+    scroll-snap-align: center; /* Center alignment for each slide */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for slides */
+    border-radius: 10px; /* Rounded corners for slides */
+    overflow: hidden; /* Hide overflow for rounded corners */
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+/* Optional: Navigation buttons (if needed) */
+.slider-navigation {
+    margin-top: 20px;
+}
+
+.prev-btn,
+.next-btn {
+    background-color: #555; /* Dark background for navigation buttons */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+    background-color: #333; /* Darker shade on hover */
+}
+
+
+
+
+
+.slide {
+    position: relative; /* Ensure buttons stay within slide */
+}
+
+.button-container {
+    position: absolute;
+    bottom: 20px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.buy-btn,
+.cart-btn {
+    background-color: #555; /* Dark background for buttons */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.cart-btn {
+    padding: 10px;
+    width: 40px; /* Adjust size as needed */
+}
+
+.cart-btn i {
+    font-size: 1rem;
+}
+
+.buy-btn:hover,
+.cart-btn:hover {
+    background-color: #333; /* Darker shade on hover */
+}
+
+
+
+
+
+
+
+
+/* About Us Section styles */
+.about-section {
+    padding: 80px 0;
+    background-color: #333; /* Dark grey background color */
+    color: #fff; /* Light text color */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    text-align: center; /* Center text within the container */
+}
+
+.about-content {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto; /* Center align content */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 40px; /* Space between elements */
+}
+
+.about-text {
+    max-width: 600px;
+    margin: 0 auto; /* Center align text */
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+}
+
+.about-image {
+    max-width: 100%;
+}
+
+.about-image img {
+    width: 100%; /* Ensure image fills its container */
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2); /* White shadow effect */
+}
+
+
+
+
+/* Contact Us Section styles */
+.contact-section {
+    padding: 80px 0;
+    background-color: #fff; /* White background color */
+    color: #333; /* Dark text color */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+}
+
+.contact-content {
+    width: 100%;
+    max-width: 1200px; /* Adjust maximum width as needed */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the top */
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-icon {
+    font-size: 24px;
+    margin-bottom: 15px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Light grey background for icon */
+    border-radius: 50%;
+}
+
+.contact-text h3 {
+    margin-bottom: 10px;
+}
+
+.contact-map img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* Center align icons horizontally */
+    gap: 10px;
+}
+
+.social-icons a {
+    color: #333;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Blue color on hover */
+}
+
+
+
+
+
+/* Footer Section styles */
+.footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color */
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-left, .footer-center, .footer-right {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-left h3, .footer-center h3, .footer-right h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon {
+    font-size: 20px;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #007bff; /* Blue color on hover */
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #007bff; /* Blue color on hover */
+}
+
+.footer-right p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    margin: 0;
+}
